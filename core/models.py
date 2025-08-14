@@ -6,3 +6,6 @@ class Book(models.Model):
     pages = models.IntegerField()
     soft_copy = models.BooleanField()
     published_date = models.DateField()
+
+class Publisher(models.Model):
+    name = models.CharField(max_length=100)
