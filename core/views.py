@@ -5,3 +5,6 @@ from .models import Book
 class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
+
+def santhosh_version():
+    return "santhosh"
