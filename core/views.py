@@ -14,3 +14,6 @@ def madesh():
 
 def sunil():
     return "Sunil"
+
+def new_branch():
+    return "new branch"
