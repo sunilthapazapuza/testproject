@@ -15,5 +15,9 @@ def madesh():
 def sunil():
     return "Sunil"
 
+
 def run():
     print("Conflict")
+
+def new_branch():
+    return "new branch"
