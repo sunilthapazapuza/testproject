@@ -9,9 +9,6 @@ class BookViewSet(viewsets.ModelViewSet):
 def santhosh_version():
     return "santhosh"
 
-def madesh():
-    return "madesh"
-
 def sunil():
     return "Sunil"
 
